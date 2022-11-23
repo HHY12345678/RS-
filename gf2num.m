@@ -1,3 +1,4 @@
+%计算GF域内每个码元与0码字的码距并映射在成实数计算GF域内每个码元与0码字的码距并映射在成实数。
 function distance = gf2num(gf_a)
 distance = -1;
 if (gf_a == gf(0,3)) distance = 0; end
